@@ -23,11 +23,6 @@
   font-size: 16px;
 }
 
-.header {
-  height: 90px;
-  /* background-color: cornflowerblue; */
-}
-
 .header-logo {
   width: 150px;
 }
@@ -39,19 +34,22 @@
 
 .navbar {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
-  height: 90px;
   align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .banner {
   height: 100vh;
-  background-image: url('images/fatiha-top.png'), linear-gradient(45deg, rgb(220, 207, 207, 3), rgb(18, 17, 17));
+  background-image: url('images/fatiha-top.png'), linear-gradient(45deg, rgb(18, 17, 17), rgb(220, 207, 207, 3));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: right;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   align-items: center;
   color: white;
 }
@@ -59,7 +57,7 @@
 .banner-contents {
   display: flex;
   flex-direction: column;
-  text-align: right;
+  text-align: left;
 }
 
 .banner-contents p,
@@ -330,5 +328,10 @@ textarea {
 @media screen and (max-width: 576px) {
   .contents-default-width {
     margin: 0;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
   }
 }
