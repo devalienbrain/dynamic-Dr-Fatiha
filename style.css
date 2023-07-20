@@ -1,0 +1,327 @@
+/* UNIVERSAL STYLE */
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* COMMON STYLE*/
+.contents-default-width {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.tomato-col {
+  color: tomato;
+}
+
+.primary-btn {
+  color: white;
+  padding: 13px 18px;
+  background-color: tomato;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header {
+  height: 90px;
+  /* background-color: cornflowerblue; */
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.header-propic {
+  width: 60px;
+  border-radius: 25%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url('images/fatiha-top.png'), linear-gradient(45deg, rgb(220, 207, 207, 3), rgb(18, 17, 17));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+}
+
+.banner-contents {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.banner-contents p,
+h1,
+small {
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.banner-contents a {
+  text-decoration: none;
+}
+
+.banner-contents p {
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.banner-contents h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.banner-contents small {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-btn {
+  color: tomato;
+  background-color: white;
+}
+
+.failure-section {
+
+  background-image: linear-gradient(45deg, rgba(130, 130, 236, 0.692), rgba(52, 52, 238, 0.932));
+}
+
+.failure-section ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.failure-section ul li>img {
+  width: 17px;
+}
+
+
+.failure-parts {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.failure-image,
+.failure-contents {
+  flex: 50%;
+}
+
+.failure-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.failure-contents li {
+  padding-bottom: 10px;
+}
+
+/* MAKE APPOINTMENT BOX SECTION STYLE STARTS */
+.make-appointment-box {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(rgb(198, 85, 85), rgb(241, 15, 15));
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  height: 160px;
+  align-items: center;
+  /* using absolute position to this box to make overlap within the relative failure items */
+  top: 100vh;
+  position: absolute;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.phone-contact {
+  /* height: 100%;
+  width: auto; */
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.phone-logo,
+.p-cont {
+  flex: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.for-hr-line {
+  border-right: 2px solid gray;
+}
+
+.middle-contents {
+  font-size: 12px;
+  padding: 10px 30px;
+  padding-left: 25px;
+}
+
+.appoint-btn {
+  width: 175px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 13px;
+  border: none;
+}
+
+.p-get-words {
+  font-size: 10px;
+}
+
+.p-numbers {
+  font-size: 25px;
+}
+
+/* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
+
+/* BLOOG BOXES */
+.blog-all-sec {
+  padding-top: 20vh;
+  /* background-image: linear-gradient(30deg, rgb(220, 207, 207, 3), rgb(82, 78, 78)); */
+  height: 75vh;
+}
+
+.blog-sec {
+  /* padding-top: 80px; */
+  text-align: center;
+
+}
+
+.blog-sec h1 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.blogbox-container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: gray;
+  text-align: left;
+}
+
+.blog-box {
+  width: 300px;
+  height: 340px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 13px rgb(86, 56, 56);
+}
+
+.blog-box img {
+  width: 100%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.blogbox-container h4 {
+  padding-top: 11px;
+  font-size: 16px;
+}
+
+.blogbox-container p {
+  padding-top: 11px;
+  font-size: 12px;
+}
+
+.blog-box-inside-contensts {
+  padding: 10px;
+}
+
+/* SECTION PART-3 STYLE STARTS */
+.sec-3-part {
+  background-image: url('images/watch.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.section-3 {
+  padding-top: 20px;
+}
+
+/* MAKE ALL CONTENTS RELATIVE TO IMAGE AND SHOW*/
+.absolute-div {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.absolute-div h2 {
+  color: #FFF;
+  font-size: 34px;
+  font-weight: 600;
+  padding-bottom: 1%;
+  margin-bottom: 5%;
+}
+
+/* SECTION PART-3 STYLE ENDS */
+
+
+.footer-all {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: rgb(25, 102, 246);
+  color: white;
+}
+
+.foot-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 25px;
+}
+
+.foot-section-items {
+  width: 50%;
+}
+
+.foot-section-items>form input,
+textarea {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  background: #FFF;
+  margin-bottom: 10px;
+}
+
+.foot-section-items>form textarea {
+  display: block;
+  height: 170px;
+}
+
+.hr-line {
+  border: 1px solid tomato;
+}
+
+.footer-foot {
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
