@@ -93,6 +93,55 @@ small {
   background-color: white;
 }
 
+/* MAKE APPOINTMENT BOX SECTION STYLE STARTS */
+.make-appointment-box {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(rgb(198, 85, 85), rgb(241, 15, 15));
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  position: absolute;
+  top: 100vh;
+  padding: 20px;
+}
+
+.phone-contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.phone-logo,
+.p-cont {
+  width: 100%;
+}
+
+.for-hr-line {
+  border-right: 2px solid gray;
+}
+
+.middle-contents {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.appoint-btn {
+  padding: 10px 25px;
+  border-radius: 15px;
+  border: none;
+}
+
+.p-get-words {
+  font-size: 10px;
+}
+
+.p-numbers {
+  font-size: 25px;
+}
+
+/* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
+
 .failure-section {
 
   background-image: linear-gradient(45deg, rgba(130, 130, 236, 0.692), rgba(52, 52, 238, 0.932));
@@ -131,68 +180,6 @@ small {
   padding-bottom: 10px;
 }
 
-/* MAKE APPOINTMENT BOX SECTION STYLE STARTS */
-.make-appointment-box {
-  display: flex;
-  justify-content: space-between;
-  background: linear-gradient(rgb(198, 85, 85), rgb(241, 15, 15));
-  color: aliceblue;
-  border: none;
-  border-radius: 10px;
-  height: 160px;
-  align-items: center;
-  /* using absolute position to this box to make overlap within the relative failure items */
-  top: 100vh;
-  position: absolute;
-
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.phone-contact {
-  /* height: 100%;
-  width: auto; */
-  display: flex;
-  justify-content: space-around;
-  gap: 30px;
-}
-
-.phone-logo,
-.p-cont {
-  flex: 50%;
-  width: 100%;
-  height: auto;
-}
-
-.for-hr-line {
-  border-right: 2px solid gray;
-}
-
-.middle-contents {
-  font-size: 12px;
-  padding: 10px 30px;
-  padding-left: 25px;
-}
-
-.appoint-btn {
-  width: 175px;
-  height: 50px;
-  padding: 5px;
-  border-radius: 13px;
-  border: none;
-}
-
-.p-get-words {
-  font-size: 10px;
-}
-
-.p-numbers {
-  font-size: 25px;
-}
-
-/* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
 
 /* BLOOG BOXES */
 .blog-all-sec {
