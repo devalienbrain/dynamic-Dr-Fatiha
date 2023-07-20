@@ -299,10 +299,25 @@ textarea {
     margin: 0;
   }
 
+  .header-propic {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .banner,
   .blogbox-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .banner-contents,
+  .failure-contents {
+    text-align: center;
   }
 
   .failure-parts,
