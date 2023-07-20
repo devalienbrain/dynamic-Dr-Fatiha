@@ -52,6 +52,7 @@
   justify-content: left;
   align-items: center;
   color: white;
+  position: relative;
 }
 
 .banner-contents {
@@ -143,31 +144,20 @@ small {
 /* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
 
 .failure-section {
-
   background-image: linear-gradient(45deg, rgba(130, 130, 236, 0.692), rgba(52, 52, 238, 0.932));
 }
-
-.failure-section ul li {
-  list-style: none;
-  text-align: left;
-}
-
-.failure-section ul li>img {
-  width: 17px;
-}
-
 
 .failure-parts {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 30px;
 }
 
 .failure-image,
 .failure-contents {
-  flex: 50%;
+  width: 50%;
 }
 
 .failure-contents {
@@ -176,22 +166,14 @@ small {
   gap: 25px;
 }
 
-.failure-contents li {
-  padding-bottom: 10px;
-}
-
 
 /* BLOOG BOXES */
 .blog-all-sec {
-  padding-top: 20vh;
-  /* background-image: linear-gradient(30deg, rgb(220, 207, 207, 3), rgb(82, 78, 78)); */
-  height: 75vh;
+  padding-top: 50px;
 }
 
 .blog-sec {
-  /* padding-top: 80px; */
   text-align: center;
-
 }
 
 .blog-sec h1 {
@@ -205,7 +187,7 @@ small {
   justify-content: space-around;
   align-items: center;
   color: gray;
-  text-align: left;
+  text-align: center;
 }
 
 .blog-box {
@@ -317,8 +299,22 @@ textarea {
     margin: 0;
   }
 
-  .banner {
+  .banner,
+  .blogbox-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .failure-parts,
+  .foot-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .failure-image,
+  .failure-contents,
+  .foot-section-items {
+    width: 80%;
+    padding-left: 20px;
   }
 }
