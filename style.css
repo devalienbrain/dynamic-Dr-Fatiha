@@ -325,3 +325,10 @@ textarea {
   text-align: center;
   margin-top: 10px;
 }
+
+/* Responsive mobile styles */
+@media screen and (max-width: 576px) {
+  .contents-default-width {
+    margin: 0;
+  }
+}
