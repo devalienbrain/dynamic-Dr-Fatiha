@@ -94,57 +94,12 @@ small {
   background-color: white;
 }
 
-/* MAKE APPOINTMENT BOX SECTION STYLE STARTS */
-.make-appointment-box {
-  display: flex;
-  justify-content: space-between;
-  background: linear-gradient(rgb(198, 85, 85), rgb(241, 15, 15));
-  border: none;
-  border-radius: 10px;
-  align-items: center;
-  position: absolute;
-  top: 100vh;
-  padding: 20px;
-}
 
-.phone-contact {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.phone-logo,
-.p-cont {
-  width: 100%;
-}
-
-.for-hr-line {
-  border-right: 2px solid gray;
-}
-
-.middle-contents {
-  font-size: 12px;
-  padding: 20px;
-}
-
-.appoint-btn {
-  padding: 10px 25px;
-  border-radius: 15px;
-  border: none;
-}
-
-.p-get-words {
-  font-size: 10px;
-}
-
-.p-numbers {
-  font-size: 25px;
-}
-
-/* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
 
 .failure-section {
   background-image: linear-gradient(45deg, rgba(130, 130, 236, 0.692), rgba(52, 52, 238, 0.932));
+  margin-bottom: 40px;
+  border-radius: 8px;
 }
 
 .failure-parts {
@@ -164,6 +119,7 @@ small {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  padding: 10px;
 }
 
 
@@ -188,6 +144,7 @@ small {
   align-items: center;
   color: gray;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .blog-box {
@@ -196,6 +153,7 @@ small {
   background-color: aliceblue;
   border-radius: 10px;
   box-shadow: 5px 5px 13px rgb(86, 56, 56);
+  padding: 20px;
 }
 
 .blog-box img {
@@ -218,38 +176,6 @@ small {
   padding: 10px;
 }
 
-/* SECTION PART-3 STYLE STARTS */
-.sec-3-part {
-  background-image: url('images/watch.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.section-3 {
-  padding-top: 20px;
-}
-
-/* MAKE ALL CONTENTS RELATIVE TO IMAGE AND SHOW*/
-.absolute-div {
-  position: absolute;
-  top: 25%;
-  left: 5%;
-  display: flex;
-  flex-direction: column;
-}
-
-.absolute-div h2 {
-  color: #FFF;
-  font-size: 34px;
-  font-weight: 600;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-/* SECTION PART-3 STYLE ENDS */
 
 
 .footer-all {
@@ -317,7 +243,6 @@ textarea {
     flex-direction: column;
   }
 
-  .banner-contents,
   .failure-contents {
     text-align: center;
   }
