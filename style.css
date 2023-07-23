@@ -104,7 +104,7 @@ small {
 
 .failure-parts {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 30px;
